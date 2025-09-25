@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brr Brr Patapim</title>
+    <title>MOMA Leck Eier</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 4rem;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        /* Responsive für kleinere Bildschirme */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <main className="min-h-screen flex items-center justify-center bg-background">
-        <h1 className="text-6xl md:text-8xl font-bold text-foreground text-center">Moma leck eier</h1>
-    </main>
+    <h1>MOMA Leck Eier</h1>
 </body>
 </html>
