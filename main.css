@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Hintergrundfarbe */
+}
+
+main {
+    min-height: 100vh; /* Höhe des Hauptbereichs */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* Hintergrundfarbe des Hauptbereichs */
+    padding: 20px; /* Innenabstand */
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+h1 {
+    font-size: 6rem; /* Schriftgröße für große Bildschirme */
+    text-align: center;
+    color: #333; /* Schriftfarbe */
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 8rem; /* Schriftgröße für mittlere und große Bildschirme */
+    }
+}
